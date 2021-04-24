@@ -1,0 +1,17 @@
+#box1 {
+    background: greenyellow;
+}
+#box2 {
+    background: orange;
+}
+#box3 {
+    background: lightblue;
+}
+
+#container {
+    font-size: 1.5rem;
+    background: lightgrey;
+    display: flex;
+    grid-template-rows: 100px 100px 100px;
+    justify-content: space-between;
+}

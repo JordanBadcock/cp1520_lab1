@@ -1,0 +1,31 @@
+html {
+    font-size: 1rem;
+    text-align: center;
+    background-color: lightgray;
+}
+
+#title {
+    color: purple;
+    text-align: center;
+    font-size: 4rem;
+}
+
+#img-div {
+    background-color: white;
+}
+
+#image {
+    max-width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#img-text {
+    font-size: 1rem;
+}
+
+#tribute-info {
+    text-align: left;
+}
+

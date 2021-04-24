@@ -1,0 +1,30 @@
+:root {
+    --page-color: rgb(212, 112, 121);
+    --text-color: rgba(115, 233, 112, 0.92);
+}
+body {
+    width: 90%;
+    background-color: var(--page-color);
+    color: var(--text-color);
+    margin: 2rem 4rem;
+}
+#header-img {
+    width: 25%;
+    margin: 50px
+}
+h1 {
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+}
+p {
+    line-height: 2.2rem;
+    text-align: justify;
+}
+h2 {
+    color: black;
+}
+hr {
+    height: 1px;
+    background-color: var(--page-color);
+}

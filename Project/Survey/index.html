@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Survey</title>
+</head>
+<body>
+    <h1 id="title">Pie Survey</h1>
+    <p id="description">I chose this one because it looked easy and I am quickly regretting it.</p>
+    <div class="box">
+        <form id="survey-form">
+            <span><label id="name-label">Name</label></span>
+            <input id="name" type="text" placeholder="Enter your name" required /><br />
+            <span><label id="email-label">Email</label></span>
+            <input id="email" type="email" placeholder="Enter your email" required /><br />
+            <span><label id="number-label">Age (optional)</label></span>
+            <input id="number" type="number" placeholder="Enter your age" min="1" max="120" /><br />
+            <span><label id="dropdown-label">What brings you here?</label></span>
+            <select name="dropdown" id="dropdown" required>
+                <option value="option1">I'm John</option>
+                <option value="option2">I'm an AI that John programmed to grade this</option>
+                <option value="option3">I'm severely bored'</option>
+            </select>
+            <div id="radio-box">
+                <label id="radio-label">How much do you like pies?</label>
+                <div class="radio-option">
+                    <label class="radio-text"><input id="option1" type="radio" value="option1" name="radio-get"
+                            checked />A lot</label>
+                </div>
+                <div class="radio-option">
+                    <label class="radio-text"><input id="option2" type="radio" value="option2"
+                            name="radio-get" />I'm in love with them</label>
+                </div>
+                <div class="radio-option">
+                    <label class="radio-text"><input id="option3" type="radio" value="option3"
+                            name="radio-get" />I'm married to a pie</label>
+                </div>
+                <div class="radio-option">
+                    <label class="radio-text"><input id="option4" type="radio" value="option3"
+                            name="radio-get" />I'm a crazy person that doesn't enjoy eating the pies.(If you pick this one you're no longer my friend)</label>
+                </div>
+            </div>
+            <div id="checkbox-box">
+                <label id="checkbox-label">What pies do you like?</label>
+                <div class="checkbox-option">
+                    <label class="checkbox-text"><input type="checkbox" id="checkbox1" name="checkbox1"
+                            value="checkbox1"/>Lemon Meringue</label>
+                </div>
+                <div class="checkbox-option">
+                    <label class="checkbox-text"><input type="checkbox" id="checkbox2" name="checkbox2"
+                            value="checkbox2" />Coconut Cream</label>
+                </div>
+                <div class="checkbox-option">
+                    <label class="checkbox-text"><input type="checkbox" id="checkbox3" name="checkbox3"
+                            value="checkbox3" />Other</label>
+                </div>
+            </div>
+            <span><label>If you selected "other" please specify</label></span>
+            <textarea id="comments"></textarea>
+            <div id="submit-button">
+                <button id="submit" type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+    <!--JS SCRIPT FOR TESTING-->
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>

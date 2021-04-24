@@ -1,0 +1,23 @@
+:root {
+    --primary-color: rgb(100,100,200);
+}
+body {
+    background-color: rgb(200, 200, 100); 
+}
+.margin-text {
+    margin: 20px 0px 20px 0px;
+}
+.padding-text {
+    padding: 20px;
+    color: #000
+}
+.rgb-text {
+    color: rgb(255, 255, 255);
+}
+.hex-text {
+    color: #FFFFFF;
+}
+h2 {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+}
