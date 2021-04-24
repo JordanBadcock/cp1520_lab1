@@ -1,0 +1,27 @@
+:root {
+    --code-color: rgb(253, 248, 196);
+    --link-color: rgb(53, 53, 221);
+    --accent-color: lightblue;   
+}
+html {
+    font-size: 10px;
+}
+h1 {
+    font-size: 4rem;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Sans-Serif;
+}
+.header-logo {
+    width: 100%;
+}
+pre {
+    font-size: 1.8em;
+    line-height: 2.5em;
+    border: 1px solid var(--accent-color);
+    background-color: var(--code-color);
+    padding: 5px 5px 5px 5px;
+}
+p {
+    font-size: 1.8rem;
+    font-family: Arial, Helvetica, Sans-Serif;
+}

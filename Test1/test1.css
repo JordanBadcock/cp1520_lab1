@@ -1,0 +1,17 @@
+#header-text {
+    font-family: "Oi", cursive;
+}
+body {
+    background-color: greenyellow ;
+}
+#smaller-image {
+    width: 25%;
+}
+.grey-border {
+    border-color: grey;
+    border-width: 16px;
+    border-style: solid;
+}
+.form-list {
+    background: black;
+}
